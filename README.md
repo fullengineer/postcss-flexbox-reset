@@ -2,7 +2,7 @@
 
 [postcss]: https://github.com/postcss/postcss
 
-[![npm](https://img.shields.io/npm/v/postcss-flexbox-reset.svg)](https://www.npmjs.com/package/postcss-flexbox-reset) [![Build Status][ci-img]][ci]
+[![npm](https://img.shields.io/npm/v/postcss-flexbox-reset.svg)](https://www.npmjs.com/package/postcss-flexbox-reset)
 [![npm](https://img.shields.io/npm/dt/postcss-flexbox-reset.svg)](https://www.npmjs.com/package/postcss-flexbox-reset)
 
 [PostCSS] plugin for resetting flexbox. This plugin adds rule `min-width:0` to all direct descendants of element `display: flex`.
