@@ -1,19 +1,13 @@
 # PostCSS Flexbox Reset
 
 [postcss]: https://github.com/postcss/postcss
-[ci-img]: https://travis-ci.org/AndrejGajdos/postcss-flexbox-reset.svg?branch=main
-[ci]: https://travis-ci.org/AndrejGajdos/postcss-flexbox-reset
-[mit]: https://github.com/AndrejGajdos/postcss-flexbox-reset/blob/master/LICENSE
-[releases history]: https://github.com/AndrejGajdos/postcss-flexbox-reset/blob/master/CHANGELOG.md
 
-[![npm](https://img.shields.io/npm/v/postcss-flexbox-reset.svg)](https://www.npmjs.com/package/postcss-flexbox-reset) [![Build Status][ci-img]][ci]
+[![npm](https://img.shields.io/npm/v/postcss-flexbox-reset.svg)](https://www.npmjs.com/package/postcss-flexbox-reset)
 [![npm](https://img.shields.io/npm/dt/postcss-flexbox-reset.svg)](https://www.npmjs.com/package/postcss-flexbox-reset)
 
 [PostCSS] plugin for resetting flexbox. This plugin adds rule `min-width:0` to all direct descendants of element `display: flex`.
 
-Let’s say you want to truncate labels in flexbox layout. Without resetting flex items, it [doesn't work](https://codepen.io/andrej_gajdos/pen/YzWozKw). When you apply `min-width:0` to flex items, [layout works](https://codepen.io/andrej_gajdos/pen/wvWLvwq) as expected.
-
-This was just one example, but you will come across similar funky issues in your flexbox layouts in different browsers. You can read my whole story [here](https://andrejgajdos.com/css-reset-flexbox-grid-responsive-layout/).
+Let’s say you want to truncate labels in flexbox layout. Without resetting flex items, it doesn't work. When you apply `min-width:0` to flex items, layout works as expected.
 
 [postcss]: https://github.com/postcss/postcss
 
@@ -69,10 +63,6 @@ module.exports = {
 
 [official docs]: https://github.com/postcss/postcss#usage
 
-## Changelog
-
-See [Releases history]
-
 ## License
 
-[MIT]
+MIT
